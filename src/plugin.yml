@@ -1,0 +1,17 @@
+name: PunishmentGui
+main: kendrip.PunishUI.MainPunishGui
+version: 1.0
+description: Opens punishment gui
+
+commands:
+  ui:
+    description: Opens punishment gui
+    usage: /<command> <player>
+  rr:
+    description: Rick Rolled
+    usage: /<command> <player>
+  banhistory:
+    aliases: bh
+    description: Returns a player's ban history count.
+    usage: /<command> <player> get || /<command> <player> set <number>
+
